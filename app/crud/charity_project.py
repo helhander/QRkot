@@ -35,7 +35,7 @@ class CRUDCharityProject(
                 CharityProject.close_date,
                 CharityProject.create_date,
                 CharityProject.description,
-            ).where(CharityProject.fully_invested == True)
+            ).where(CharityProject.fully_invested.is_(True))
         )
         charity_projects = charity_projects.all()
         charity_projects = [
