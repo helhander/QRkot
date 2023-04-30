@@ -46,6 +46,3 @@ Launch the project:
 ```
 uvicorn app.main:app
 ```
-
-## Author
-Трофимов Никита
