@@ -1,10 +1,10 @@
-# Проект QRKot
-## Описание
-QRKot - приложение для Благотворительного фонда поддержки котиков.
-Фонд собирает пожертвования на различные целевые проекты: на медицинское обслуживание нуждающихся хвостатых, на обустройство кошачьей колонии в подвале, на корм оставшимся без попечения кошкам — на любые цели, связанные с поддержкой кошачьей популяции.
-API можно посмотреть в openapi.json
-## Как запустить проект
-Клонировать репозиторий и перейти в него в командной строке:
+# QRKot
+## About
+QRKot - пan application for the Charity Fund for the support of cats.
+The Foundation collects donations for various targeted projects: for medical care of tailed cats in need, for the arrangement of a cat colony in the basement, for food for cats left without care — for any purposes related to the support of the cat population.
+The API can be viewed in openapi.json
+## How to launch a project
+Clone the repository and go to it on the command line:
 ```
 git clone 
 ```
@@ -13,25 +13,25 @@ git clone
 cd cat_charity_fund
 ```
 
-Cоздать и активировать виртуальное окружение:
+Create and activate a virtual environment:
 
 ```
 python3 -m venv venv
 ```
 
-* Если у вас Linux/macOS
+* Linux/macOS
 
     ```
     source venv/bin/activate
     ```
 
-* Если у вас windows
+* Windows
 
     ```
     source venv/scripts/activate
     ```
 
-Установить зависимости из файла requirements.txt:
+Install dependencies:
 
 ```
 python3 -m pip install --upgrade pip
@@ -41,11 +41,11 @@ python3 -m pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
-Запустить проект:
+Launch the project:
 
 ```
 uvicorn app.main:app
 ```
 
-## Автор
+## Author
 Трофимов Никита
