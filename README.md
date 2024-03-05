@@ -6,7 +6,7 @@ The Foundation collects donations for various targeted projects.
 Several target projects can be opened in the Foundation. Each project has a name, description and the amount that is planned to be collected. After the required amount is collected, the project is closed.
 Donations to projects are received according to the First In, First Out principle: all donations go to the project opened earlier than others; when this project reaches the required amount and closes, donations begin to flow to the next project.
 
-The API can be viewed in openapi.json
+The API can be viewed in openapi.json or after launching the project at http://127.0.0.1:8000/docs
 ## How to launch a project
 Clone the repository and go to it on the command line:
 ```
